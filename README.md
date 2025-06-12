@@ -36,7 +36,7 @@ To develop an intuitive, reliable, and efficient tool that allows users to ident
 
 ## 📁 Project Structure
 
-'''
+```
 SafeBite/
 │
 ├── Models/
@@ -56,4 +56,5 @@ SafeBite/
 │   └── safebite_model_testing.ipynb    # Model evaluation
 │
 └── README.md                # This documentation file
+'''
 
