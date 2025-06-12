@@ -55,4 +55,37 @@ SafeBite/
 │
 └── README.md
 
+---
+
+## 🛠️ Getting Started
+
+Follow these steps to set up and run the SafeBite project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/LeenaGeepalem/infosys_safebite.git
+cd infosys_safebite
+---
+###2. Install Required Packages
+Make sure pip is installed. Then run:
+pip install -r requirements.txt
+
+###3. Prepare the Datasets
+Ensure these files exist in the datasets/ directory:
+
+Allergen_Status_of_Food_Products.csv — Raw allergen data
+
+output_dataset.csv — Cleaned dataset for training
+
+If these files are missing, obtain and place them in the correct directory.
+🚀 Run the Application
+To Launch the Web App:
+streamlit run script/app.py
+Open your browser and go to: http://localhost:8501
+To Run the Flask API:
+python script/api.py
+The API will be available at: http://localhost:5000
+
+
 
