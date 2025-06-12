@@ -35,6 +35,7 @@ To develop an intuitive, reliable, and efficient tool that allows users to ident
 ---
 
 ## 📁 Project Structure
+
 SafeBite/
 │
 ├── Models/
