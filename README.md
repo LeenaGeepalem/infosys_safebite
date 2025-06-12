@@ -56,5 +56,4 @@ SafeBite/
 │   └── safebite_model_testing.ipynb    # Model evaluation
 │
 └── README.md                # This documentation file
-'''
 
