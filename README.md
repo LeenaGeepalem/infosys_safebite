@@ -38,7 +38,7 @@ To develop an intuitive, reliable, and efficient tool that allows users to ident
 SafeBite/
 │
 ├── Models/
-│ ├── encoder.pkl # Encoder used during preprocessing
+│ |── encoder.pkl # Encoder used during preprocessing
 │ ├── nb_model.pkl # Trained Naive Bayes model
 │ └── rf_model.pkl # Trained Random Forest model
 │
