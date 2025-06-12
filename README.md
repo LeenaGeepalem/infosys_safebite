@@ -35,4 +35,24 @@ To develop an intuitive, reliable, and efficient tool that allows users to ident
 ---
 
 ## 📁 Project Structure
+SafeBite/
+│
+├── Models/
+│ ├── encoder.pkl # Encoder used during preprocessing
+│ ├── nb_model.pkl # Trained Naive Bayes model
+│ └── rf_model.pkl # Trained Random Forest model
+│
+├── datasets/
+│ ├── Allergen_Status_of_Food_Products.csv # Raw allergen dataset
+│ └── output_dataset.csv # Cleaned dataset
+│
+├── script/
+│ ├── api.py # Flask API for predictions
+│ ├── app.py # Main app (Streamlit + Flask)
+│ ├── safebite_data_preprocess.ipynb # Preprocessing logic
+│ ├── safebite_model_training.ipynb # Model training and saving
+│ └── safebite_model_testing.ipynb # Model evaluation
+│
+└── README.md
+
 
