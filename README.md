@@ -38,54 +38,21 @@ To develop an intuitive, reliable, and efficient tool that allows users to ident
 SafeBite/
 │
 ├── Models/
-│ |── encoder.pkl # Encoder used during preprocessing
-│ ├── nb_model.pkl # Trained Naive Bayes model
-│ └── rf_model.pkl # Trained Random Forest model
+│   ├── encoder.pkl            # Encoder used during preprocessing
+│   ├── nb_model.pkl           # Trained Naive Bayes model
+│   └── rf_model.pkl           # Trained Random Forest model
 │
 ├── datasets/
-│ ├── Allergen_Status_of_Food_Products.csv # Raw allergen dataset
-│ └── output_dataset.csv # Cleaned dataset
+│   ├── Allergen_Status_of_Food_Products.csv  # Raw allergen dataset
+│   └── output_dataset.csv                     # Cleaned dataset for training
 │
 ├── script/
-│ ├── api.py # Flask API for predictions
-│ ├── app.py # Main app (Streamlit + Flask)
-│ ├── safebite_data_preprocess.ipynb # Preprocessing logic
-│ ├── safebite_model_training.ipynb # Model training and saving
-│ └── safebite_model_testing.ipynb # Model evaluation
+│   ├── api.py                # Flask API for predictions
+│   ├── app.py                # Main app (Streamlit + Flask)
+│   ├── safebite_data_preprocess.ipynb   # Preprocessing logic
+│   ├── safebite_model_training.ipynb   # Model training and saving
+│   └── safebite_model_testing.ipynb    # Model evaluation
 │
-└── README.md
-
+└── README.md                # This documentation file
 ---
-
-## 🛠️ Getting Started
-
-Follow these steps to set up and run the SafeBite project locally.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/LeenaGeepalem/infosys_safebite.git
-cd infosys_safebite
----
-###2. Install Required Packages
-Make sure pip is installed. Then run:
-pip install -r requirements.txt
-
-###3. Prepare the Datasets
-Ensure these files exist in the datasets/ directory:
-
-Allergen_Status_of_Food_Products.csv — Raw allergen data
-
-output_dataset.csv — Cleaned dataset for training
-
-If these files are missing, obtain and place them in the correct directory.
-🚀 Run the Application
-To Launch the Web App:
-streamlit run script/app.py
-Open your browser and go to: http://localhost:8501
-To Run the Flask API:
-python script/api.py
-The API will be available at: http://localhost:5000
-
-
 
